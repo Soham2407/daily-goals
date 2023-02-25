@@ -8,7 +8,7 @@ const Content = () => {
       <Paper sx={{ p: 3 }}>
         <form>
           <Grid container>
-            <Grid item lg={8}>
+            <Grid item sm={8} md={8} lg={8}>
               <TextField
                 variant="outlined"
                 size="small"
@@ -19,7 +19,7 @@ const Content = () => {
             </Grid>
           </Grid>
           <Grid container sx={{ mt: 2 }}>
-            <Grid item lg={8}>
+            <Grid item sm={8} md={8} lg={8}>
               <TextField
                 variant="outlined"
                 multiline
